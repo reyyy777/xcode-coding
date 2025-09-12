@@ -1,0 +1,78 @@
+ .judul-teks {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .tekss {
+    width: 100%;
+    text-align: left;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .tekss:hover {
+    background: #e3e3e3;
+  }
+
+  .isi-teks {
+    max-height: 0;
+    overflow: visible;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+    background: #fff;
+    padding: 0 15px;
+    height: auto;
+    border: 1px solid #ccc;
+    max-width: 900px;   
+  }
+
+
+/* Accordion Responsif */
+
+/* Tablet (<= 992px) */
+@media (max-width: 992px) {
+  .tekss {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .isi-teks {
+    max-width: 100%; /* isi teks menyesuaikan lebar container */
+    padding: 0 12px;
+  }
+}
+
+/* Mobile (<= 768px) */
+@media (max-width: 768px) {
+  .judul-teks {
+    margin-bottom: 8px;
+  }
+
+  .tekss {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .isi-teks {
+    padding: 0 10px;
+  }
+}
+
+/* Extra Small (<= 480px) */
+@media (max-width: 480px) {
+  .tekss {
+    font-size: 13px;
+    padding: 6px;
+  }
+
+  .isi-teks {
+    padding: 0 8px;
+  }
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelas HTML</title>
+    <link rel="stylesheet" href="kelascoding.css">
+    <link rel="stylesheet" href="bardropdown.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Kelas HTML</h1>
+            <p>Belajar dasar-dasar HTML untuk membangun halaman web</p>
+        </div>
+    </header>
+
+    <nav class="transparent" id="navbar">>
+        <div class="container">
+            <ul>
+                <li><a href="kelascoding.html">Home</a></li>
+                <li><a href="#pengantar">Pengantar</a></li>
+                <li><a href="#struktur">Struktur Dasar</a></li>
+                <li><a href="#elemen">Elemen Umum</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section id="pengantar">
+
+          <div class="judul-teks">
+            <button class="tekss"> Pengenalan HTML</button> 
+          
+            <div class="isi-teks">
+              <h2>1. Pengenalan HTML</h2>
+              <p> (HyperText Markup Language) adalah bahasa standar untuk membuat struktur dasar halaman web.
+            HTML bukan bahasa pemrograman, melainkan bahasa markup yang memberi tahu browser bagaimana menampilkan teks, gambar, link, tabel, dll.
+            Contoh sederhana:
+              </p>
+              <pre><code>
+                &lt;html&gt;
+                    &lt;;head&gt;
+                      &lt;&title&gt;hello world&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                      &lt;h1&gt;hello world&lt;/h1&gt;
+                      &lt;;p&gt;this is my first website&lt;/p&gt;
+                    &lt;/body&gt;
+                 &lt;/html&gt;
+              </code></pre>
+            </div>
+          </div> 
+        </section>     
+                 
+
+  
+
+        <section id="struktur">
+            <div class="judul-teks">
+            <button class="tekss">Struktur Dasar HTML</button>
+            <div class="isi-teks">
+              
+              
+                <h2>Struktur Dasar HTML</h2>
+                <p>Berikut adalah contoh struktur dasar dari dokumen HTML:</p>
+                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Judul Halaman&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah paragraf pertama saya.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+            </div>
+            </div>
+   
+        </section>
+
+        <section id="elemen">
+          <div class="judul-teks">
+            <button class="tekss">Struktur Dasar HTML</button>
+            <div class="isi-teks">
+              
+              <h2>Elemen HTML Umum</h2>
+              <p>Beberapa elemen HTML yang sering digunakan:</p>
+              <ul>
+                <li><code>&lt;h1&gt; hingga &lt;h6&gt;</code> – Judul dengan tingkatan</li>
+                <li><code>&lt;p&gt;</code> – Paragraf teks</li>
+                <li><code>&lt;a&gt;</code> – Tautan/Link</li>
+                <li><code>&lt;img&gt;</code> – Gambar</li>
+                <li><code>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</code> – Daftar</li>
+                <li><code>&lt;div&gt;, &lt;span&gt;</code> – Pembungkus konten</li>
+              </ul>
+            </div>
+          </div>      
+        </section>
+
+        <section id="teks">
+          <div class="judul-teks">
+          <button class="tekss">Heading, Paragraf, dan Teks </button>
+          <div class="isi-teks">  
+        
+            <h2>Heading, Paragraf, dan Teks</h2>
+            <p>Heading (&lt;h1&gt; sampai &lt;h6&gt;) digunakan untuk membuat judul atau subjudul.  
+&lt;h1&gt; = judul utama (paling besar)  
+&lt;h6&gt; = judul terkecil  
+
+Paragraf (&lt;p&gt;) digunakan untuk menulis teks biasa.  
+Teks bisa diberi format seperti tebal (&lt;b&gt; / &lt;strong&gt;), miring (&lt;i&gt; / &lt;em&gt;), atau garis bawah (&lt;u&gt;).
+Contoh:  
+            </p>
+            <pre><code>&lt;h1&gt;Judul Utama&lt;/h1&gt;
+&lt;h2&gt;Subjudul&lt;/h2&gt;
+&lt;p&gt;Ini adalah sebuah paragraf. &lt;b&gt;Teks ini tebal&lt;/b&gt;, sedangkan &lt;i&gt;teks ini miring&lt;/i&gt;.&lt;/p&gt;
+  </code></pre>
+
+                <div style="border:1px solid #ccc; padding:10px; margin-top:5px;">
+  <h1>Judul Utama</h1>
+  <h2>Subjudul</h2>
+  <p>Ini adalah sebuah paragraf. <b>Teks ini tebal</b>, sedangkan <i>teks ini miring</i>.</p>
+</div>
+          </div>
+          </div>
+
+        </section>
+
+        <section>
+          <div class="judul-teks">
+          <button class="tekss" > Semantic HTML</button>
+          <div class="isi-teks">
+            
+  <h2>5. Semantic HTML</h2>
+  <p>Semantic HTML adalah elemen HTML yang punya arti/jelaskan fungsinya, bukan hanya gaya tampilan.</p>
+  <ul>
+    <li>Membuat struktur web lebih jelas bagi browser & mesin pencari (SEO).</li>
+    <li>Membantu aksesibilitas (misalnya screen reader).</li>
+  </ul>
+  <p>Contoh elemen semantic:</p>
+  <ul>
+    <li><code>&lt;header&gt;</code> = bagian atas halaman (judul, navigasi)</li>
+    <li><code>&lt;nav&gt;</code> = navigasi menu</li>
+    <li><code>&lt;main&gt;</code> = konten utama</li>
+    <li><code>&lt;article&gt;</code> = artikel mandiri</li>
+    <li><code>&lt;section&gt;</code> = bagian dari konten</li>
+    <li><code>&lt;footer&gt;</code> = bagian bawah halaman</li>
+  </ul>
+
+        <pre><code>&lt;header&gt;
+  &lt;h1&gt;Blog Pribadi&lt;/h1&gt;
+  &lt;nav&gt;
+    &lt;a href="index.html"&gt;Home&lt;/a&gt; | &lt;a href="about.html"&gt;Tentang&lt;/a&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;h2&gt;Judul Artikel&lt;/h2&gt;
+    &lt;p&gt;Isi artikel...&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;© 2025 Blogku&lt;/p&gt;
+&lt;/footer&gt;
+  </code></pre>
+
+  <!-- Bagian Output -->
+  <p><strong>Hasil jika dijalankan di browser:</strong></p>
+  <div style="border:1px solid #ccc; padding:10px; margin-top:5px;">
+    <header>
+      <h1>Blog Pribadi</h1>
+    </header>
+
+    <main>
+      <article>
+        <h2>Judul Artikel</h2>
+        <p>Isi artikel...</p>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 Blogku</p>
+    </footer>
+  </div>
+
+
+          </div>
+          </div>
+
+
+        </section>
+
+    
+
+      
+    </main>
+    <script src="kelascodeng.js"></script>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Belajar Web Development. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
